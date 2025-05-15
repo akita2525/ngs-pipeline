@@ -1,1 +1,11 @@
-504  ./run_pipeline.sh SRR1039508_trimmed ~/projects/Ogihomework1 /Users/saki/Downloads/ngsdat2-master/DiseaseGenomeMain/RefHg38/hg38.fasta\n
+# 実行ログ - run_pipeline.sh
+
+# スクリプト編集
+nano run_pipeline.sh
+
+# スクリプトの実行
+./run_pipeline.sh SRR1039508_trimmed ~/projects/Ogihomework1 /Users/saki/Downloads/ngsdat2-master/DiseaseGenomeMain/RefHg38/hg38.fasta
+
+# 実行履歴確認
+cat ~/.bash_history | grep run_pipeline.sh
+cat ~/.zsh_history | grep run_pipeline.sh
